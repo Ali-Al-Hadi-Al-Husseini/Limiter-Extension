@@ -13,9 +13,15 @@
 <body>
     <!-- <label for="basic-url" class="form-label">Your vanity URL</label> -->
     <nav>
-        
+        <img src="https://img-premium.flaticon.com/png/512/3097/3097061.png?token=exp=1632641911~hmac=4228ac80779a00c49c8f8b51bdad0746" width="40" height="40" alt="Letter l  premium icon" title="Letter l premium icon" data-icon_src="https://www.flaticon.com/premium-icon/icons/svg/3097/3097061.svg" id="icon">
+        <ul id="nav-list">
+            <li class="nav-item" id="limiter">Limiter</li>
+            <li class="nav-item" id="alarm">Alarm</li>
+            <li class="nav-item" id="timer">Timer</li>
+            <div class="underbar"></div>
+        </ul>   
     </nav>
-    <div id="main">
+    <div id="limiter-div">
         <div class="input-group mb-3" id="url">
 
             <span class="input-group-text" id="span-eg">example.com</span>
@@ -39,6 +45,22 @@
 
 
     </div>
+    <div class="dvider"></div>
+    <div class="middle">
+        
+    </div>
+    <div class="dvider"></div>
+    <div class="alarm-div">
+        <button class="btn btn-primary" id="timer-btn">Set timer</button>
+        <input type="text" class="form-control" id="hour-input-timer" aria-describedby="basic-addon3" placeholder="hour"> 
+        <input type="text" class="form-control" id="min-input-timer" aria-describedby="basic-addon3" placeholder="min"  >
+        <input type="text" class="form-control" id="sec-input-timer" aria-describedby="basic-addon3" placeholder="secs"  >
+    </div>
+<!-- 
+    <div class="timer-div" >
+        <h1>timer   </h1>
+
+    </div> -->
 
 
     <script src="index.js"> </script>
